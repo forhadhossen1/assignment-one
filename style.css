@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* .........header section style.......  */
+body{
+    margin-left: 240px;
+    margin-right: 240px;
+    font-family: roboto slab, open sans;
+}
+header{
+    height: 80vh;
+    background-image: url("flower/pngwing\ 10.png");
+    background-color: rgb(240, 222, 226);
+    color: black;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    font-family: roboto slab, open sans;
+}
+
+.header__content{
+    text-align: center;
+    padding-top: 300px;
+}
+
+.logo{
+    font-size: 45px;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+
+.flowers{
+    color: gray;
+    font-size: 40px;
+}
+
+.header__heading{
+    font-size: 60px;
+    transition: all(0.2s);
+}
+
+.header__heading:hover{
+    transform: scale(1.5);
+}
+
+.header__p{
+    font-size: 25px;
+    padding: 30px;
+}
+
+.btn{
+    padding: 15px 25px;
+    border: none;
+    font-size: 25px;
+    color: black;
+    background-color: indianred;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgb(48, 27, 27);
+}
+
+/* .......main section style.......  */
+.main__section{
+    text-align: center;
+    padding-top: 50px;
+    height: 90vh;
+    /* background-color: ; */
+}
+
+.main__section__heading{
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+.main__section_p{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 30px;
+}
+
+.flow__type{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.flower1{
+    height: 530px;
+    width: 450px;
+    background-color: rgb(245, 219, 223);
+    padding-top: 102px;
+    border-top-left-radius: 225px;
+    border-top-right-radius: 225px;
+}
+.flower2{
+    height: 530px;
+    width: 450px;
+    background-color: rgb(240, 241, 213);
+    padding-top: 60px;
+    border-top-left-radius: 225px;
+    border-top-right-radius: 225px;
+}
+.flower3{
+    height: 530px;
+    width: 450px;
+    background-color: rgb(200, 228, 245);
+    padding-top: 160px;
+    border-top-left-radius: 225px;
+    border-top-right-radius: 225px;
+}
+
+.flower__p{
+    padding-top: 30px;
+}
+
+.flower1:hover{
+    border: 2px solid pink;
+}
+.flower2:hover{
+    border: 2px solid pink;
+}
+.flower3:hover{
+    border: 2px solid pink;
+}
+
+.our__services{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 200px;
+    background-color: rgb(237, 235, 235);
+    padding: 50px;
+    font-size: 20px;
+    transition: all(0.3s);
+}
+
+.our__services:hover{
+    background-color: rgb(193, 189, 189);
+    border: 2px solid pink;
+}
+
+/* .........banner section style....  */
+.banner{
+    display: flex;
+    text-align: center;
+    background-color: rgb(250, 239, 242);
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
+    margin-top: 80px;
+}
+
+.banner__heading{
+    font-size: 40px;
+    padding-bottom: 25px;
+    transition: all(0.2s);
+}
+
+.banner__heading:hover{
+    color: rgb(21, 10, 10);
+    transform: scale(1.2);
+}
+
+.banner__p{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+/* ...........instagram section style......  */
+.instagram{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.instagram__heading{
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.instagram__p{
+    font-size: 20px;
+    padding-bottom: 80px;
+}
+
+.instagram__imgs{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    
+}
+
+.instagram__img{
+    transition: all(0.3s);
+}
+
+.instagram__img:hover{
+    transform: scale(1.1);
+}
+
+/* ...........review section style ........  */
+.review{
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.review__heading{
+    font-size: 40px;
+    padding: 50px;
+}
+
+.customer__img{
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    transition: all(0.3s);
+}
+
+.customer__img:hover{
+    transform: scale(1.1);
+    background-image: url("flower/pngwing\ 6.png");
+}
+
+
+.review > p{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+/* ........contact section style....... */
+.deals{
+    text-align: center;
+    background-image: url("flower/Rectangle\ 9.png");
+    background-size: cover;
+    padding: 120px 280px;
+    margin-top: 100px;
+}
+
+.deals input[type=email]{
+    width: 70%;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+/* ......footer section style...  */
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #b9b9b9;
+    padding: 30px;
+    font-size: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact__src{
+    border-left: 2px solid black;
+    padding: 15px;
+}
+
+.footer__rose{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
